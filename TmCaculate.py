@@ -7,4 +7,4 @@ for line in open(primerFile, 'rU'):
     prm = line.replace('\n', '')
     # %2.2f is used to print up to two integers, the
     # decimal separator and two decimal numbers.
-    print '%s,%2.2f' % (prm, MeltingTemp.Tm_staluc(prm))
+    print ('%s,%2.2f' % (prm, MeltingTemp.Tm_staluc(prm)))
